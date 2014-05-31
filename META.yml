@@ -8,7 +8,6 @@ build_requires:
   Test::FailWarnings: '0'
   Test::Git: '0'
   Test::More: '0.94'
-  Test::Type: '0'
 configure_requires:
   Module::Build: '0'
 dynamic_config: 1
@@ -21,16 +20,13 @@ name: App-GitHooks-Plugin-RequireCommitMessage
 provides:
   App::GitHooks::Plugin::RequireCommitMessage:
     file: lib/App/GitHooks/Plugin/RequireCommitMessage.pm
-    version: v0.1.0
+    version: v1.0.0
 requires:
   App::GitHooks: '0'
-  Carp: '0'
-  File::Slurp: '0'
-  System::Command: '0'
   perl: '5.006'
 resources:
   bugtracker: https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage/issues
   homepage: https://metacpan.org/release/App-GitHooks-Plugin-RequireCommitMessage
   license: http://www.gnu.org/licenses/gpl-3.0.txt
   repository: https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage
-version: v0.1.0
+version: v1.0.0

@@ -20,8 +20,7 @@
             "Test::Exception" : "0",
             "Test::FailWarnings" : "0",
             "Test::Git" : "0",
-            "Test::More" : "0.94",
-            "Test::Type" : "0"
+            "Test::More" : "0.94"
          }
       },
       "configure" : {
@@ -32,9 +31,6 @@
       "runtime" : {
          "requires" : {
             "App::GitHooks" : "0",
-            "Carp" : "0",
-            "File::Slurp" : "0",
-            "System::Command" : "0",
             "perl" : "5.006"
          }
       }
@@ -42,7 +38,7 @@
    "provides" : {
       "App::GitHooks::Plugin::RequireCommitMessage" : {
          "file" : "lib/App/GitHooks/Plugin/RequireCommitMessage.pm",
-         "version" : "v0.1.0"
+         "version" : "v1.0.0"
       }
    },
    "release_status" : "stable",
@@ -58,5 +54,5 @@
          "url" : "https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage"
       }
    },
-   "version" : "v0.1.0"
+   "version" : "v1.0.0"
 }
