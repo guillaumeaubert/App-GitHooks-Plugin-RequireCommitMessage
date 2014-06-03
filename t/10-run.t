@@ -26,7 +26,11 @@ my $tests =
 		name           => 'Completely empty commit message.',
 		files          => $files,
 		commit_message => '',
-		expected       => qr/^\QAborting commit due to empty commit message.\E/,
+		# This test should show "Aborting commit due to empty commit message" but
+		# not a line starting with "x " which would indicate that the git hook is
+		# still active. Because this git message is language-dependent based on the
+		# locale of the user, we can only test the negative lookahead of the latter.
+		expected       => qr/^(?!x )/,
 		exit_status    => 1,
 	},
 	{
