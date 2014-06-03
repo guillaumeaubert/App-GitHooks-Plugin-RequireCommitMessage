@@ -1,4 +1,7 @@
 Revision history for App-GitHooks-Plugin-RequireCommitMessage
 
+v1.0.1  2014-06-02
+        - Make test independent of the system's language (GH-1).
+
 v1.0.0  2014-05-31
         - Public release.
