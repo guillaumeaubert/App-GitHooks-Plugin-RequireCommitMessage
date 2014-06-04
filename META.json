@@ -38,7 +38,7 @@
    "provides" : {
       "App::GitHooks::Plugin::RequireCommitMessage" : {
          "file" : "lib/App/GitHooks/Plugin/RequireCommitMessage.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       }
    },
    "release_status" : "stable",
@@ -54,5 +54,5 @@
          "url" : "https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage"
       }
    },
-   "version" : "v1.0.1"
+   "version" : "v1.0.2"
 }
