@@ -1,8 +1,8 @@
 App-GitHooks-Plugin-RequireCommitMessage
 ========================================
 
-[![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage.png?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage)
-[![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage/badge.png?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage?branch=master)
+[![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage)
+[![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage?branch=master)
 
 App::GitHooks plugin to require a commit message.
 
