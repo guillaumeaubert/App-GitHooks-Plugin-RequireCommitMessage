@@ -21,7 +21,7 @@ name: App-GitHooks-Plugin-RequireCommitMessage
 provides:
   App::GitHooks::Plugin::RequireCommitMessage:
     file: lib/App/GitHooks/Plugin/RequireCommitMessage.pm
-    version: v1.0.3
+    version: v1.1.0
 requires:
   App::GitHooks: '1.005001'
   perl: '5.01'
@@ -30,4 +30,4 @@ resources:
   homepage: https://metacpan.org/release/App-GitHooks-Plugin-RequireCommitMessage
   license: http://www.gnu.org/licenses/gpl-3.0.txt
   repository: https://github.com/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage
-version: v1.0.3
+version: v1.1.0

@@ -26,11 +26,11 @@ through.
 
 =head1 VERSION
 
-Version 1.0.3
+Version 1.1.0
 
 =cut
 
-our $VERSION = '1.0.3';
+our $VERSION = '1.1.0';
 
 
 =head1 METHODS

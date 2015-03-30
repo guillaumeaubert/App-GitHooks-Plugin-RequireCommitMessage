@@ -1,5 +1,10 @@
 Revision history for App-GitHooks-Plugin-RequireCommitMessage
 
+v1.1.0  2015-03-29
+        - Synchronized with App-GitHooks' changes to fix the detection of the
+          commit message without the possibly auto-generated ticket ID part
+          (GH-2).
+
 v1.0.3  2014-06-08
         - Noted git version in tests to help troubleshooting.
         - Required git v1.7.4.1.
