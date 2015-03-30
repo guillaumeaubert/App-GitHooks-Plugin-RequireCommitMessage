@@ -52,7 +52,7 @@ sub run_commit_msg
 	# Note: this allows catching the case where the ticket ID prefix was
 	# auto-generated, but no message was entered by the user.
 	my $summary = $commit_message->get_summary();
-	my $ticket_regex = App::GitHooks::Utils::get_ticket_id_regex( $app );
+	my $ticket_regex = App::GitHooks::Utils::get_ticket_id_from_commit_regex( $app );
 	$summary =~ s/$ticket_regex//i
 		if defined( $ticket_regex );
 
