@@ -75,7 +75,7 @@ foreach my $test ( @$tests )
 				cleanup_test_repository => 1,
 				config                  => "[_]\n"
 					. "project_prefixes = DEV\n"
-					. 'extract_ticket_id_from_commit = /^($project_prefixes-\d+|--): /' . "\n",
+					. 'extract_ticket_id_from_commit = /^($project_prefixes-\d+|--): ?/' . "\n",
 				hooks                   => [ 'commit-msg' ],
 				plugins                 => [ 'App::GitHooks::Plugin::RequireCommitMessage' ],
 			);
