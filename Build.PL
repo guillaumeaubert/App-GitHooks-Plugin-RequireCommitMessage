@@ -50,7 +50,7 @@ my $builder = $class->new(
 	},
 	requires             =>
 	{
-		'App::GitHooks'        => 0,
+		'App::GitHooks'        => 1.005001,
 		'perl'                 => 5.010,
 	},
 	add_to_cleanup       =>
