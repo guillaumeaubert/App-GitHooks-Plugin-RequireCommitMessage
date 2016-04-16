@@ -4,7 +4,7 @@ App-GitHooks-Plugin-RequireCommitMessage
 [![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage)
 [![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-RequireCommitMessage?branch=master)
 [![CPAN](https://img.shields.io/cpan/v/App-GitHooks-Plugin-RequireCommitMessage.svg)](https://metacpan.org/release/App-GitHooks-Plugin-RequireCommitMessage)
-[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![License](https://img.shields.io/badge/license-Perl%205-blue.svg)](http://dev.perl.org/licenses/)
 
 App::GitHooks plugin to require a commit message.
 
@@ -47,16 +47,11 @@ You can also look for information at:
 LICENSE AND COPYRIGHT
 ---------------------
 
-Copyright (C) 2013-2016 Guillaume Aubert
+Copyright (C) 2013-2016 Guillaume Aubert.
 
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License version 3 as published by the Free
-Software Foundation.
+This code is free software; you can redistribute it and/or modify it under the
+same terms as Perl 5 itself.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program. If not, see http://www.gnu.org/licenses/
-
+PARTICULAR PURPOSE. See the LICENSE file for more details.
