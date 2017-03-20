@@ -3,22 +3,22 @@ require 5.010;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'INSTALLDIRS' => 'site',
   'PREREQ_PM' => {
-                   'Test::Requires::Git' => '1.005',
-                   'Test::More' => '0.94',
-                   'Capture::Tiny' => 0,
+                   'App::GitHooks' => '1.005001',
+                   'Git::Repository' => 0,
                    'Test::Exception' => 0,
                    'Test::FailWarnings' => 0,
-                   'App::GitHooks' => '1.005001',
-                   'Git::Repository' => 0
+                   'Test::More' => '0.94',
+                   'Test::Requires::Git' => '1.005',
+                   'Capture::Tiny' => 0
                  },
-  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/RequireCommitMessage.pm',
+  'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],
+  'NAME' => 'App::GitHooks::Plugin::RequireCommitMessage',
+  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/RequireCommitMessage.pm',
   'test' => {
               'TESTS' => 't/*.t'
             },
-  'NAME' => 'App::GitHooks::Plugin::RequireCommitMessage',
   'PL_FILES' => {}
 )
 ;
